@@ -1,0 +1,489 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.288);
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "a a a a"
+    "b b b b"
+    "c c c c"
+    "d d d d"
+    "e e e e "
+    "f f f f "
+   
+}
+
+nav{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: center;
+    gap: 20rem;
+    align-content: center;
+    padding-top: 30px;
+    grid-area: a;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 3rem;
+    font-size: 20px;
+}
+nav .logo{
+    display: flex;
+    width: 170px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.home{
+    border-bottom: 3px solid red;
+    display: flex;
+    margin-bottom: -10px;
+}
+.Hire{
+    background-color: red;
+    padding: 15px;
+    width: 150px;
+    display:flex;
+    border-bottom-right-radius:15px;
+}
+.sec1{
+    grid-area: b;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    gap:18rem
+}
+.sec1bimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec1ahead{
+    display: flex;
+    flex-direction: column;
+}
+.sec1ahead img{
+width: 100px;
+display: flex;
+margin-left: 520px;
+margin-top: -80PX;
+}
+.sec1ahead span{
+    color: red;
+}
+.sec1ahead {
+    font-size: 50px;
+    font-weight: 600;
+}
+.sec1abody p{
+    display: flex;
+    font-size: 20px;
+    /* word-spacing: 40px; */
+}
+.sec1abutton{
+    display: flex;
+    border: none;
+}
+.button1a {
+    color: white;
+    background-color: red;
+    border-bottom-right-radius: 10px;
+    font-size: 18px;
+
+
+}
+.button2a {
+    color: white;
+    background-color: grey;
+    border-bottom-right-radius: 10px;
+    font-size: 18px;
+    border: none;
+}
+.sec1abutton button{
+    
+    width: 250px;
+    text-align: center;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    /* border: 1px solid red; */
+}
+.sec1bcontain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+}
+
+.sec1bimg{
+    width: 400px;
+}
+.sec1bsvg{
+    width: 150px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+.sec2{
+    grid-area: c;
+    /* border: 1px solid red; */
+    background-color: rgba(255, 68, 0, 0.13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    padding: 90px;
+
+}
+.sec2bcontainer img{
+    width: 100%;
+    height: 100%;
+}
+.sec2bcontainer{
+    width: 800px;
+    height: 470px;
+}
+.sec2acontain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+.sec2ahead{
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+}
+.sec2ahead span{
+    color: red;
+}
+.sec2body span{
+    font-weight: 600;
+    font-size: 25px;
+}
+.sec2aimages img{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 10px;
+
+}
+.sec3acontain{
+    display: flex;
+    flex-direction: column;
+}
+.sec3acontain img{
+    width: 200px;
+    display: flex;
+    margin-left: 800px;
+    margin-top: -40px;
+}
+.sec2aimages {
+    display: flex;
+    width: 50px;
+}
+.sec3button button{
+    color: black;
+    background-color: white;
+    border: none;
+    width:200px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 0 0 10px #999;
+    transition: transform 0.2s;
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* border-radius: 50px; */
+}
+.sec3button button:hover{
+    cursor: pointer;
+    transform: translateY(-15%);
+    }
+.sec3bcontain{
+    display: flex;
+    flex-direction: column;
+}
+.sec3bbutton button{
+    color: black;
+    background-color: white;
+    border: none;
+    width:180px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 0 0 10px #999;
+    transition: transform 0.2s;
+
+}
+
+.sec3bbutton button:hover{
+cursor: pointer;
+transform: translateY(-15%);
+}
+
+.sec3button{
+    display: flex;
+    gap: 3rem;
+
+}
+.sec3bbutton{
+    display: flex;
+    gap: 1rem;
+}
+.sec3{
+    grid-area: d;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 50px;
+
+}
+.sec3acontain p{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.sec3bhead p{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px; 
+}
+
+.sec4 {
+    grid-area: e;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 228, 196, 0.527);
+    padding: 0 90px;
+
+}
+.sec4ahead p{
+    font-size: 50px;
+    font-weight: 600;
+}
+.sec4ahead span{
+    color: red;
+}
+.sec4bbody{
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 300px 300px 300px; */
+    justify-content: center;
+    align-self: center;
+}
+.sec4body1{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 1rem;
+    margin: 40px 0;
+}
+
+
+.sec4body2{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 1rem;
+
+
+}
+.sec4body1 div{
+    background-color: white;
+    width: 364px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0px;
+    border-bottom-right-radius: 20px;
+}
+.sec4body2 div{
+    background-color: white;
+    width: 364px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0px;
+    border-bottom-right-radius: 20px;
+}
+.sec4body1 div:hover{
+    background-color: black;
+    color: white;
+
+}
+.sec4body2 div:hover{
+    background-color: black;
+    color: white;
+
+}
+.sec4body1 div img{
+    width: 70px;
+}
+.sec4body1 div p{
+    text-align: center;
+    margin: 30px;
+}
+.sec4body2 div p{
+    text-align: center;
+    margin: 30px;
+}
+.sec4body2 div{
+    background-color: white;
+}
+.sec4 button{
+    /* color: w; */
+    /* background-color: white; */
+    border: none;
+    width:250px;
+    height: 50px;
+    font-size: 20px;
+    margin: 50px 0;
+    box-shadow: 0 0 10px #999;
+    transition: transform 0.2s;
+    border-bottom-right-radius: 20px;
+
+}
+
+
+.sec4button{
+    display: flex;
+    gap: 2rem;
+}
+
+.sec4button1 {
+    color: white;
+    background-color: red;
+    border-bottom-right-radius: 10px;
+    font-size: 18px;
+
+
+}
+.sec4button2 {
+    color: white;
+    background-color: grey;
+    border-bottom-right-radius: 10px;
+    font-size: 18px;
+    border: none;
+}
+footer{
+    grid-area: f;
+    /* border: 1px solid red; */
+    color: white;
+    background-color: #212529;
+    display: flex;
+    gap: 50rem;
+}
+.icons img{
+    width: 35px;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+.footer1 img{
+    width:150px;
+}
+
+@media only screen and (max-width:  1200px){
+    .sec1{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+.sec1bimg{
+    width: 900px;
+    margin-top: -150px;
+}
+
+}
+@media only screen and (max-width:  900px){
+    .sec4body1{
+        flex-direction: column;
+    }
+    .sec4body2{
+        flex-direction: column;
+    }
+    .sec2{
+        flex-direction: column;
+    }
+    .sec2bcontainer{
+        width: 800px;
+        height: 770px;
+    }
+    nav{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .sec3head{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+    }
+    .sec3button{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .sec3bbutton{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec3bhead{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+    }
+
+    footer{
+        grid-area: f;
+        /* border: 1px solid red; */
+        color: white;
+        background-color: #212529;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    
+}
